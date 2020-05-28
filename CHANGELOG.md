@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added an option to configure xml security e.g. to load from http sources or not from a specific repository 
 (so loading is configurable less restrictive, default strategy is to only load from a local repository)
 - Support java.xml.transform.Source as Input
+- Options to customize serialized report file names (cmdline only) via `--report-prefix` and `--report-postfix`
 
 ### Changed
 - Inputs are NOT read into memory (e.g. Byte-Array) prior processing within the validator. This reduces memory consumption.
